@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8" />
+     <meta name="viewpoint" content="width-device-width, initial-scale-1.0" />
+      <title>Quick Bite - Fast Foodd | By Code Info</title>
+      <link rel="stylesheet" href="style.css" />
+      <!-- font awesome icons cdn link --> 
+      <link
+        rel="stylesheet"
+        href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+    </head>  
+    <body>
+       <header class="header">
+           <nav class="food-menu">
+              <div class="burger--icon">
+                 <i class="fa-solid fa-bars"></i>
+                </div>
+              <div class="search--box">
+                 <i class="fa-solid fa-magnifying-glass"></i> 
+                  <input type="text" placeholder="search" />  
+                </div>
+             <div class="menu--icons">
+                 <i class="fa-solid fa-bowl-food"></i>
+                 <div class="cart-icon">
+                     <i class="fa-solid fa-cart-shopping"></i>
+                 </div>
+                </div> 
+          </nav>
+        </header> 
+
+        <!-- cover section -->
+        <section class="cover">
+          <div class="cover-overlay>"
+            <h2>Quick Bite</h2>
+              <span class="slogan">Where Taste Takes the Fast Lane</span>
+              <img src="./images/overlay.png" width=1200px height=150px/>
+          </div>
+        </section>
+        <main>
+          <h2 class="section-heading">Food Menu</h2>
+          <div class="menu--list">
+            <div class="menu-items">
+              <img src="./images/salad.png"  width=120px height=120px alt=""/>
+              <h5>salad</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/burger.png" alt="" />
+              <h5>burger</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/milkshake.png" alt="" />
+              <h5>milkshake</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/french fries.png" alt="" />
+              <h5>french fries</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/nuggets.png" alt="" />
+              <h5>nuggets</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/pizza.png" alt="" />
+              <h5>pizza</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/soft drink.png" alt="" />
+              <h5>Soft drinks</h5>
+            </div>
+            <div class="menu--item">
+              <img src="./images/coffee.png" alt="" />
+              <h5>Coffee</h5>
+            </div>
+          </div>
+          <!--card item section-->
+          <h2 class="section-heading">Menu Items</h2>
+          <div class="card-list">
+            <div class="card">
+              <img src="./images/salad.png" alt="" />
+              <h4 classs="card--title">Salad</h4>
+              <div class="card--price">
+                <div class="price">$3.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/burger.png" alt="" />
+              <h4 classs="card--title">Burger</h4>
+              <div class="card--price">
+                <div class="price">$3.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/milkshake.png" alt="" />
+              <h4 classs="card--title">Milkshake</h4>
+              <div class="card--price">
+                <div class="price">$5.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/french fries.png" alt="" />
+              <h4 classs="card--title">French Fries</h4>
+              <div class="card--price">
+                <div class="price">$3.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/nuggets.png" alt="" />
+              <h4 classs="card--title">Nuggets</h4>
+              <div class="card--price">
+                <div class="price">$5.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/pizza.png" alt="" />
+              <h4 classs="card--title">pizza</h4>
+              <div class="card--price">
+                <div class="price">$3.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/soft drink.png" alt="" />
+              <h4 classs="card--title">Soft Drinks</h4>
+              <div class="card--price">
+                <div class="price">$5.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/coffee.png" alt="" />
+              <h4 classs="card--title">Coffee</h4>
+              <div class="card--price">
+                <div class="price">$5.50</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+              </div>
+            </div>
+          </div>
+          <!--cart sidebar section-->
+          <div class="sidevar" id="sidebar"></div>
+          <div class="sidebar-close">
+            <i class="fa-solid fa-close"></i>
+            <div class="cart-menu">
+              <h3>My cart</h3>
+              <div class="cart-tems">test 1</div>
+            </div>
+            <div class="sidebar--footer">
+              <div class="total--amount">
+                <h5>Total</h5>
+                <div class="cart-total">$0.00</div>
+              </div>
+              <button class="checkout-btn">checkout</button>
+            </div>
+          </div>
+        </main>
+        <script src="./main.js"></script>
+    </body>  
+</html>
